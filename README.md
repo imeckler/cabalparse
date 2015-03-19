@@ -8,4 +8,5 @@ cd cabalparse
 cabal sandbox init
 cabal configure
 cabal install
+mv .cabal-sandbox/bin/cabalparse ~/.cabal/bin/ # or wherever you like
 ```
