@@ -6,6 +6,9 @@ import Distribution.Simple.Configure (getConfigStateFile)
 -- import Distribution.Verbosity (silent)
 -- import Data.Generics.Text
 
+x :: Int
+x = _
+
 main = do
   (path:_) <- getArgs
   print =<< getConfigStateFile path
