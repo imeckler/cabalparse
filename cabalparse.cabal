@@ -21,6 +21,8 @@ executable cabalparse
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8,
                        Cabal >= 1.22,
-                       syb
+                       directory >= 1.2.2.0
+
+
   -- hs-source-dirs:      
   default-language:    Haskell2010
