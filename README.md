@@ -1,5 +1,5 @@
 # cabalparse
-A hack for slick.
+A hack for mote.
 
 ## Installation
 ```bash
